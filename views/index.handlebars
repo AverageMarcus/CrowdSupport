@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>CrowdSupport</title>
+    <style>
+      body {
+        text-align: center;
+      }
+
+      h2 {
+        font-style: italic;
+      }
+
+      .phone-number {
+        font-size: 2em;
+        font-weight: bold;
+        border-bottom: 2px solid #ccc;
+      }
+
+      main {
+        width: 600px;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>CrowdSupport</h1>
+
+      <h2>Crowd sourced tech support</h2>
+
+      <img src="images/techsupport.jpg" />
+
+      <h3>Call <span class="phone-number">+{{phoneNumber}}</span> to ask one of our experts a question or register as an expert yourself</h3>
+
+      <p>
+        <small>We currently have {{experts}} experts registered</small>
+      </p>
+    </main>
+  </body>
+</html>
